@@ -1,13 +1,3 @@
-/*Connection
-   Sensor Pin A0
-*/
-/*LCD RS pin to digital pin 12
-   LCD Enable pin to digital pin 11
-   LCD D4 pin to digital pin 7
-   LCD D5 pin to digital pin 6
-   LCD D6 pin to digital pin 5
-   LCD D7 pin to digital pin 4
-*/
 
 #include <LiquidCrystal.h>
 // initialize the library with the numbers of the interface pins
@@ -95,3 +85,23 @@ void loop()
   scanPhase (2, lcdA, faultDistance2);
 
 }
+
+
+
+
+
+
+//
+// Created by Raynard omongbale on 19/03/2020.
+//
+/*Connection
+   Sensor Pin A0
+*/
+/*LCD RS pin to digital pin 12
+   LCD Enable pin to digital pin 11
+   LCD D4 pin to digital pin 5
+   LCD D5 pin to digital pin 4
+   LCD D6 pin to digital pin 3
+   LCD D7 pin to digital pin 2
+*/
+
